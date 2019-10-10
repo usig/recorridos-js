@@ -1,0 +1,41 @@
+{
+  "name": "@usig-gcba/recorridos",
+  "version": "1.0.4",
+  "description": "Serivicio para consultar recorridos en transporte público o bicicleta dentro de la ciudad de Buenos Aires, ",
+  "main": "lib/recorridos.min.js",
+  "scripts": {
+    "build": "webpack --env build",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
+    "test:watch": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
+  },
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.24.1",
+    "babel-eslint": "7.2.3",
+    "babel-loader": "7.0.0",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-preset-es2015": "6.24.1",
+    "chai": "3.5.0",
+    "mocha": "3.3.0",
+    "webpack": "3.1.0",
+    "yargs": "7.1.0"
+  },
+  "keywords": [
+    "webpack",
+    "es6",
+    "starter",
+    "library",
+    "universal",
+    "umd",
+    "commonjs"
+  ],
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "es6-promise": "^4.1.1",
+    "fetch-jsonp": "^1.1.1",
+    "url-search-params-polyfill": "^2.0.1"
+  },
+  "author": "USIG",
+  "license": "USIG"
+}
