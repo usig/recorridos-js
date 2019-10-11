@@ -1,7 +1,7 @@
 {
   "name": "@usig-gcba/recorridos",
   "version": "1.0.4",
-  "description": "Serivicio para consultar recorridos en transporte público o bicicleta dentro de la ciudad de Buenos Aires, ",
+  "description": "Serivicio para consultar recorridos en transporte público o bicicleta dentro de la ciudad de Buenos Aires",
   "main": "lib/recorridos.min.js",
   "scripts": {
     "build": "webpack --env build",
@@ -31,11 +31,16 @@
     "commonjs"
   ],
   "dependencies": {
-    "isomorphic-fetch": "^2.2.1",
     "es6-promise": "^4.1.1",
     "fetch-jsonp": "^1.1.1",
+    "isomorphic-fetch": "^2.2.1",
     "url-search-params-polyfill": "^2.0.1"
   },
-  "author": "USIG",
+  "bugs": "https://github.com/usig/recorridos-js/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usig/recorridos-js"
+  },
+  "author": "USIG <mapa@buenosaires.gob.ar>",
   "license": "USIG"
 }
