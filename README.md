@@ -2,10 +2,11 @@
 
 Este servicio permite consultar recorridos entre dos puntos dentro de la Ciudad de Buenos Aires,
 ya sea en transporte publico o en bicicleta.
-#Instalación
+
+# Instalación
 
 ```
-npm install @gcba-usig/recorridos
+npm install @usig-gcba/recorridos
 ```
 
 # Cómo usarlo
