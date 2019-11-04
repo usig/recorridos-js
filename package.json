@@ -1,6 +1,6 @@
 {
   "name": "@usig-gcba/recorridos",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "Serivicio para consultar recorridos en transporte público o bicicleta dentro de la ciudad de Buenos Aires",
   "main": "lib/recorridos.min.js",
   "scripts": {
